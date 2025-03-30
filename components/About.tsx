@@ -1,0 +1,65 @@
+"use client";
+
+import React from 'react';
+
+// interface AboutProps {
+//     onGetInTouch: () => void;
+// }
+
+const About: React.FC/*<AboutProps>*/ = (/*{ onGetInTouch }*/) => {
+    return (
+        <section className="flex gap-40 px-6 lg:px-28 items-center max-md:flex-col max-md:gap-16" aria-labelledby="about-title">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/99280f9bf1ffc06da3c6a119c705d9003382dcd5" alt="About Load of Pixels" className="max-w-full border-none h-auto" />
+            <div className="flex flex-col gap-14 max-w-[701px]">
+                <div className="flex flex-col gap-10">
+                    <div className="flex gap-1.5 items-center">
+                        <div className="w-1.5 h-1.5 rounded-full bg-zinc-300" aria-hidden="true"></div>
+                        <span className="text-xl lg:pt-8 text-white">About Load of Pixels</span>
+                    </div>
+                    <h2 id="about-title" className="text-[3.2em] leading-tight max-md:text-5xl max-sm:text-3xl">
+                        <span className="text-white">Exceptional user experiences by following a </span>
+                        <span className="text-zinc-600">meticulous design process!</span>
+                    </h2>
+                    <p className="text-base text-zinc-400 max-w-[493px]">
+                        Delivering high-quality web development, with on-demand UX
+                        design with accessibility and precision. Elevate your brand
+                        effortlessly, one snap at a time.
+                    </p>
+                </div>
+                <div className="flex flex-col gap-4 max-w-[443px]">
+                    <div className="flex gap-3.5 items-center">
+                        <img src="/Icon-Container.png" alt="" className="w-[35.151px] h-[35.667px]" aria-hidden="true" />
+                        <span className="text-sm text-white">Web Development and Cloud Services.</span>
+                    </div>
+                    <div className="flex gap-3.5 items-center">
+                        <img src="/Icon-Container.png" alt="" className="w-[35.151px] h-[35.667px]" aria-hidden="true" />
+                        <span className="text-sm text-white">Google UX Design.</span>
+                    </div>
+                    <div className="flex gap-3.5 items-center">
+                        <img src="/Icon-Container.png" alt="" className="w-[35.151px] h-[35.667px]" aria-hidden="true" />
+                        <span className="text-sm text-white">Figma Designer.</span>
+                    </div>
+                </div>
+                <div className="flex gap-16 items-center max-sm:flex-col max-sm:gap-8">
+                    <button
+                        className="px-4 py-3 text-2xl text-gray-200 bg-blue-600 rounded-2xl shadow-[2px_-2px_50px] shadow-blue-600"
+                        // onClick={onGetInTouch}
+                        aria-label="Get in Touch"
+                    >
+                        Get in Touch
+                    </button>
+                    <div className="flex flex-col gap-2">
+                        <div className="flex gap-1.5 items-center" aria-label="5 star rating">
+                            {[...Array(5)].map((_, index) => (
+                                <img key={index} src="/star.svg" alt="" className="w-[24] h-[24]" aria-hidden="true" />
+                            ))}
+                        </div>
+                        <span className="text-sm text-white">5 star Google Business rating.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+};
+
+export default About;
