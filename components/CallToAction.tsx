@@ -16,7 +16,7 @@ const CallToAction: React.FC/*<CallToActionProps>*/ = (/*{ onViewServices }*/) =
                 </div>
                 <h2 id="cta-title" className="text-6xl leading-tight text-center max-md:text-5xl max-sm:text-3xl">
                     <span className="text-white">Each Project we Undertake </span>
-                    <span className="text-zinc-600">is a Unique Opportunity.</span>
+                    <span className="text-[#d98df0]">is a Unique Opportunity.</span>
                 </h2>
                 <p className="text-base text-center text-white">
                     Ready to take the next step? Join us now and start transforming

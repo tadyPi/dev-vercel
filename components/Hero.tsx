@@ -22,12 +22,12 @@ const Hero: React.FC = () => {
 
             {/* Hero Content */}
             <div className="flex flex-col relative top-26 sm:top-56 lg:top-20 gap-8 max-w-[878px]">
-                <div className="flex gap-2 w-[57%] lg:w-[29%] rounded-md p-1 items-center bg-gradient-to-b from-zinc-50/10 to-indigo-400/40 border border-zinc-50/10">
-                    <div className="px-2.5 py-2.5 text-xl bg-blue-600 rounded-md text-zinc-300">
+                <div className="flex gap-2 w-[57%] lg:w-[36%] rounded-md p-1 items-center bg-gradient-to-b from-zinc-50/10 to-indigo-400/40 border border-zinc-50/10">
+                    <div className="px-2.5 py-2.5 text-xl bg-[#d98df0]  rounded-md text-black">
                         New
                     </div>
                     <span className="text-sm lg:text-lg p-2 font-light rounded-md text-stone-300">
-                        No.1 Studio of 2025
+                        No.1 Startup Studio of 2025
                     </span>
                 </div>
                 <div className="flex flex-col gap-5">

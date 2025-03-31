@@ -58,9 +58,9 @@ const Features: React.FC = () => {
                     </div>
                     <h2 id="features-title" className="text-6xl leading-tight text-center max-md:text-5xl max-sm:text-3xl">
                         <span className="text-white">Utilizing a range of technologies to create </span>
-                        <span className="text-zinc-600">dynamic and engaging websites!</span>
+                        <span className="text-[#d98df0]">dynamic and engaging websites!</span>
                     </h2>
-                    <p className="text-base text-center text-zinc-500">
+                    <p className="text-base text-center text-zinc-400">
                         We design and develop custom web apps
                     </p>
                 </div>

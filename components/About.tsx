@@ -18,12 +18,14 @@ const About: React.FC/*<AboutProps>*/ = (/*{ onGetInTouch }*/) => {
                     </div>
                     <h2 id="about-title" className="text-[3.2em] leading-tight max-md:text-5xl max-sm:text-3xl">
                         <span className="text-white">Exceptional user experiences by following a </span>
-                        <span className="text-zinc-600">meticulous design process!</span>
+                        <span className="text-[#d98df0]">meticulous design process!</span>
                     </h2>
-                    <p className="text-base text-zinc-400 max-w-[493px]">
+                    <p className="text-base text-zinc-300 max-w-[493px]">
                         Delivering high-quality web development, with on-demand UX
-                        design with accessibility and precision. Elevate your brand
-                        effortlessly, one snap at a time.
+                        design with accessibility and precision.<br />
+                        <br />
+                        Elevate your brand
+                        effortlessly, with design and development from <span className="text-lg text-[#d98df0] font-semibold">Load of Pixels</span>.
                     </p>
                 </div>
                 <div className="flex flex-col gap-4 max-w-[443px]">

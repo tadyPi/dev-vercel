@@ -42,7 +42,7 @@ const FAQ: React.FC = () => {
                 </div>
                 <h2 id="faq-title" className="text-6xl leading-tight max-md:text-5xl max-sm:text-3xl">
                     <span className="text-white">Frequently </span>
-                    <span className="text-zinc-600">Asked Questions</span>
+                    <span className="text-[#d98df0]">Asked Questions</span>
                 </h2>
                 <p className="text-base text-white max-w-[493px]">
                     Have questions? Our FAQ section has you covered with quick
