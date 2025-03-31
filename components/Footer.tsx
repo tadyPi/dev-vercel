@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
                         </p>
                     </div>
                     <form className="flex gap-3.5 items-center" onSubmit={(e) => e.preventDefault()}>
-                        <div className="flex px-3 py-2 max-w-[70%] bg-zinc-950 border-zinc-700 border-[0.5px] border-x-[solid]">
+                        <div className="flex pr-3 py-2 max-w-[70%] bg-zinc-950 border-zinc-700 border-[0.5px] border-x-[solid]">
                             <label htmlFor="email-input" className="sr-only">Enter your email</label>
                             <input
                                 id="email-input"

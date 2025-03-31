@@ -11,7 +11,7 @@ const About: React.FC/*<AboutProps>*/ = (/*{ onGetInTouch }*/) => {
         <section className="flex gap-2 lg:gap-32 px-6 lg:pb-28 items-center max-md:flex-col max-md:gap-2" aria-labelledby="about-title">
             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/99280f9bf1ffc06da3c6a119c705d9003382dcd5" alt="About Load of Pixels" className="max-w-full mt-0 lg:mt-24 border-none h-auto" />
             <div className="flex flex-col gap-14 max-w-[701px]">
-                <div className="flex flex-col mt-20 gap-10">
+                <div className="flex flex-col sm:mt-9 lg:mt-20 gap-10">
                     <div className="flex gap-1.5 items-center">
                         <div className="w-1.5 h-1.5 rounded-full bg-zinc-300" aria-hidden="true"></div>
                         <span className="text-xl text-white">About Load of Pixels</span>
@@ -20,26 +20,26 @@ const About: React.FC/*<AboutProps>*/ = (/*{ onGetInTouch }*/) => {
                         <span className="text-white">Exceptional user experiences by following a </span>
                         <span className="text-[#d98df0]">meticulous design process!</span>
                     </h2>
-                    <p className="text-base text-zinc-300 max-w-[493px]">
+                    <p className="text-base sm:text-3xl lg:text-lg text-zinc-300 max-w-full">
                         Delivering high-quality web development, with on-demand UX
                         design with accessibility and precision.<br />
                         <br />
                         Elevate your brand
-                        effortlessly, with design and development from <span className="text-lg text-[#d98df0] font-semibold">Load of Pixels</span>.
+                        effortlessly, with design and development from <span className="sm:text-3xl lg:text-lg text-[#d98df0] font-semibold">Load of Pixels</span>.
                     </p>
                 </div>
-                <div className="flex flex-col gap-4 max-w-[443px]">
+                <div className="flex flex-col gap-4 max-w-full">
                     <div className="flex gap-3.5 items-center">
                         <img src="/Icon-Container.png" alt="" className="w-[35.151px] h-[35.667px]" aria-hidden="true" />
-                        <span className="text-sm text-white">Web Development and Cloud Services.</span>
+                        <span className="text-sm sm:text-2xl lg:text-base text-white">Web Development and Cloud Services.</span>
                     </div>
                     <div className="flex gap-3.5 items-center">
                         <img src="/Icon-Container.png" alt="" className="w-[35.151px] h-[35.667px]" aria-hidden="true" />
-                        <span className="text-sm text-white">Google UX Design.</span>
+                        <span className="text-sm sm:text-2xl lg:text-base text-white">Google UX Design.</span>
                     </div>
                     <div className="flex gap-3.5 items-center">
                         <img src="/Icon-Container.png" alt="" className="w-[35.151px] h-[35.667px]" aria-hidden="true" />
-                        <span className="text-sm text-white">Figma Designer.</span>
+                        <span className="text-sm sm:text-2xl lg:text-base text-white">Figma Designer.</span>
                     </div>
                 </div>
                 <div className="flex gap-16 items-center max-sm:flex-col max-sm:gap-8">
