@@ -8,7 +8,7 @@ import React from 'react';
 
 const CallToAction: React.FC/*<CallToActionProps>*/ = (/*{ onViewServices }*/) => {
     return (
-        <section className="flex flex-col gap-24 items-center mx-4 lg:mx-52 mt-28 px-44 pt-36 pb-20 bg-[linear-gradient(292deg,#0055FE_-6.87%,#000_33.43%,#000_66.81%,#0055FE_104.03%)] rounded-[59px] max-md:px-10 max-md:py-20 max-sm:px-5 max-sm:py-10" aria-labelledby="cta-title">
+        <section className="flex flex-col gap-24 items-center mx-4 lg:mx-52 mt-28 px-44 pt-36 pb-20 bg-[linear-gradient(292deg,#0055FE_-16.87%,#000_33.43%,#000_46.81%,#0055FE_104.03%)] rounded-[59px] max-md:px-10 max-md:py-20 max-sm:px-5 max-sm:py-10" aria-labelledby="cta-title">
             <div className="flex flex-col gap-4 items-center max-w-[931px]">
                 <div className="flex gap-1.5 items-center">
                     <div className="w-1.5 h-1.5 rounded-full bg-zinc-300" aria-hidden="true"></div>

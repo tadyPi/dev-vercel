@@ -34,7 +34,7 @@ const FAQ: React.FC = () => {
     ];
 
     return (
-        <section className="flex mt-12 lg:mt-40 pl-4 lg:pl-48 gap-4 items-start max-md:flex-col" aria-labelledby="faq-title">
+        <section className="flex mt-20 lg:mt-40 px-6 lg:px-0 lg:pl-48 gap-4 items-start max-md:flex-col" aria-labelledby="faq-title">
             <div className="flex flex-col gap-4 max-w-[701px]">
                 <div className="flex gap-1.5 items-center">
                     <div className="w-1.5 h-1.5 rounded-full bg-zinc-300" aria-hidden="true"></div>

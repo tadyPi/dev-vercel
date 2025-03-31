@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
 
             {/* Hero Content */}
             <div className="flex flex-col relative top-26 sm:top-56 lg:top-20 gap-8 max-w-[878px]">
-                <div className="flex gap-2 w-[57%] lg:w-[36%] rounded-md p-1 items-center bg-gradient-to-b from-zinc-50/10 to-indigo-400/40 border border-zinc-50/10">
+                <div className="flex gap-2 w-[89%] lg:w-[36%] rounded-md p-1 items-center bg-gradient-to-b from-zinc-50/10 to-indigo-400/40 border border-zinc-50/10">
                     <div className="px-2.5 py-2.5 text-xl bg-[#d98df0]  rounded-md text-black">
                         New
                     </div>
@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
                     </span>
                 </div>
                 <div className="flex flex-col gap-5">
-                    <h2 id="hero-title" className="text-[5.5em] leading-none text-white max-md:text-7xl max-sm:text-5xl">
+                    <h2 id="hero-title" className="text-[5.5em] leading-none text-white max-md:text-7xl max-sm:text-[2.7em]">
                         Cloud and Web Development
                     </h2>
                     <p className="text-xl text-zinc-400 font-light max-md:text-xl max-sm:text-base">
@@ -56,7 +56,7 @@ const Hero: React.FC = () => {
             </div>
 
             {/* Scroll right to left */}
-            <div className="relative overflow-hidden top-32 lg:mt-28 h-20 border-t bg-black border-[black] border-b-zinc-800 border-x-[solid] w-full max-sm:flex-wrap">
+            <div className="relative overflow-hidden top:12 mt-32 lg:top-8 lg:mt-28 h-20 border-t bg-black border-black border-b-zinc-800 border-x-[solid] w-full max-sm:flex-wrap">
                 {/* Left opacity cover */}
                 <div className="absolute top-0 left-0 h-full w-[6%] bg-black opacity-80 z-10"></div>
 

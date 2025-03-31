@@ -49,7 +49,7 @@ const Features: React.FC = () => {
     ];
 
     return (
-        <section className="flex flex-col lg:px-28 mt-32 gap-10 items-center" aria-labelledby="features-title">
+        <section className="flex flex-col px-6 lg:px-28 mt-20 lg:mt-32 gap-10 items-center" aria-labelledby="features-title">
             <div className="flex flex-col gap-10 items-center max-w-[872px]">
                 <div className="flex flex-col gap-10 w-full">
                     <div className="flex gap-1.5 justify-center items-center">
