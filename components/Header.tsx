@@ -9,7 +9,7 @@ import { FiMenu } from 'react-icons/fi';
 
 const Header: React.FC/*<HeaderProps>*/ = (/*{ onGetInTouch }*/) => {
     return (
-        <header className="flex justify-between fixed items-center px-32 py-9 w-full z-100 bg-zinc-600/20 border-b border-b-black/60 backdrop-blur-sm border-x-[solid] h-[90px] max-md:px-10 max-sm:px-5" role="banner">
+        <header className="flex justify-between fixed items-center px-32 py-9 w-full z-100 bg-zinc-600/20 border-b border-b-indigo-300/50 lg:border-b-black/60 backdrop-blur-sm border-x-[solid] h-[90px] max-md:px-10 max-sm:px-5" role="banner">
             <h1 className="text-2xl text-white font-bold max-md:text-3xl max-lg:text-5xl">
                 Load of Pixels
             </h1>

@@ -21,12 +21,12 @@ const Hero: React.FC = () => {
             </video>
 
             {/* Hero Content */}
-            <div className="flex flex-col relative top-32 sm:top-56 lg:top-20 gap-8 max-w-[878px]">
+            <div className="flex flex-col relative top-26 sm:top-56 lg:top-20 gap-8 max-w-[878px]">
                 <div className="flex gap-2 w-[57%] lg:w-[29%] rounded-md p-1 items-center bg-gradient-to-b from-zinc-50/10 to-indigo-400/40 border border-zinc-50/10">
                     <div className="px-2.5 py-2.5 text-xl bg-blue-600 rounded-md text-zinc-300">
                         New
                     </div>
-                    <span className="text-base lg:text-lg p-2 font-light rounded-md text-stone-300">
+                    <span className="text-sm lg:text-lg p-2 font-light rounded-md text-stone-300">
                         No.1 Studio of 2025
                     </span>
                 </div>
@@ -41,13 +41,13 @@ const Hero: React.FC = () => {
                 </div>
                 <div className="flex gap-6 items-start max-sm:flex-col max-sm:items-start">
                     <button
-                        className="px-5 py-2 text-xl text-black rounded-xl bg-zinc-200/90"
+                        className="px-3 lg:px-5 py-2 lg:py-2 text-xl text-black rounded-xl bg-zinc-200/90"
                         aria-label="Learn about UX design"
                     >
-                        Connect We Us?
+                        Contact Us
                     </button>
                     <button
-                        className="px-5 py-2 text-xl font-light text-zinc-200 rounded-xl bg-zinc-600/70"
+                        className="px-3 lg:px-5 py-2 lg:py-2 text-xl font-light text-zinc-200 rounded-xl bg-zinc-600/70"
                         aria-label="Learn about UX design"
                     >
                         Cloud Services
@@ -56,7 +56,7 @@ const Hero: React.FC = () => {
             </div>
 
             {/* Scroll right to left */}
-            <div className="relative overflow-hidden mt-28 h-20 border-t bg-black border-[black] border-b-zinc-800 border-x-[solid] w-full max-sm:flex-wrap">
+            <div className="relative overflow-hidden top-32 lg:mt-28 h-20 border-t bg-black border-[black] border-b-zinc-800 border-x-[solid] w-full max-sm:flex-wrap">
                 {/* Left opacity cover */}
                 <div className="absolute top-0 left-0 h-full w-[6%] bg-black opacity-80 z-10"></div>
 
@@ -73,7 +73,7 @@ const Hero: React.FC = () => {
                 <div className="absolute top-0 left-[5%] border-t border-zinc-200/10 h-full w-[30%] z-20 pointer-events-none"></div>
 
                 {/* Scrolling content */}
-                <div className="flex gap-24 mt-4 items-center animate-scroll text-zinc-400/30">
+                <div className="flex gap-24 mt-4 items-center animate-scroll text-zinc-400/50 lg:text-zinc-400/30">
                     <FiFigma className="w-12 h-12" title="Figma" />
                     <AiFillGithub className="w-12 h-12" title="GitHub" />
                     <FaReact className="w-12 h-12" title="React" />
