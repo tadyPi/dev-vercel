@@ -8,13 +8,13 @@ import React from 'react';
 
 const About: React.FC/*<AboutProps>*/ = (/*{ onGetInTouch }*/) => {
     return (
-        <section className="flex gap-40 px-6 lg:px-28 items-center max-md:flex-col max-md:gap-16" aria-labelledby="about-title">
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/99280f9bf1ffc06da3c6a119c705d9003382dcd5" alt="About Load of Pixels" className="max-w-full border-none h-auto" />
+        <section className="flex lg:gap-32 px-6 lg:px-28 items-center max-md:flex-col max-md:gap-16" aria-labelledby="about-title">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/99280f9bf1ffc06da3c6a119c705d9003382dcd5" alt="About Load of Pixels" className="max-w-full mt-24 border-none h-auto" />
             <div className="flex flex-col gap-14 max-w-[701px]">
-                <div className="flex flex-col gap-10">
+                <div className="flex flex-col mt-20 gap-10">
                     <div className="flex gap-1.5 items-center">
                         <div className="w-1.5 h-1.5 rounded-full bg-zinc-300" aria-hidden="true"></div>
-                        <span className="text-xl lg:pt-8 text-white">About Load of Pixels</span>
+                        <span className="text-xl text-white">About Load of Pixels</span>
                     </div>
                     <h2 id="about-title" className="text-[3.2em] leading-tight max-md:text-5xl max-sm:text-3xl">
                         <span className="text-white">Exceptional user experiences by following a </span>
