@@ -8,8 +8,8 @@ import React from 'react';
 
 const About: React.FC/*<AboutProps>*/ = (/*{ onGetInTouch }*/) => {
     return (
-        <section className="flex gap-2 lg:gap-32 px-6 lg:pb-28 items-center max-md:flex-col max-md:gap-2" aria-labelledby="about-title">
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/99280f9bf1ffc06da3c6a119c705d9003382dcd5" alt="About Load of Pixels" className="max-w-full mt-0 lg:mt-24 border-none h-auto" />
+        <section className="flex gap-2 lg:gap-32 px-6 lg:px-40 lg:pb-28 items-center max-md:flex-col max-md:gap-2" aria-labelledby="about-title">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/99280f9bf1ffc06da3c6a119c705d9003382dcd5" alt="About Load of Pixels" className="max-w-full mt-4 border-none h-auto" />
             <div className="flex flex-col gap-14 max-w-[701px]">
                 <div className="flex flex-col sm:mt-9 lg:mt-20 gap-10">
                     <div className="flex gap-1.5 items-center">
@@ -44,7 +44,10 @@ const About: React.FC/*<AboutProps>*/ = (/*{ onGetInTouch }*/) => {
                 </div>
                 <div className="flex gap-16 items-center max-sm:flex-col max-sm:gap-8">
                     <button
-                        className="px-4 py-3 text-2xl text-gray-200 bg-blue-600 rounded-2xl shadow-[2px_-2px_50px] shadow-blue-600"
+                        className="px-4 py-3 text-2xl text-gray-200 bg-blue-600 rounded-2xl
+                        hover:bg-blue-700 hover:shadow-[2px_-2px_50px] shadow-blue-600
+                        focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 
+                        shadow-[2px_-2px_50px]"
                         // onClick={onGetInTouch}
                         aria-label="Get in Touch"
                     >

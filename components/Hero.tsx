@@ -22,6 +22,7 @@ const Hero: React.FC = () => {
 
             {/* Hero Content */}
             <div className="flex flex-col relative top-26 sm:top-35 lg:top-20 gap-8 max-w-[878px]">
+                {/* Slow transparency Reveal */}
                 <div className="flex gap-2 w-[67%] sm:w-[50%] lg:w-[36%] rounded-md p-1 items-center bg-gradient-to-b from-zinc-50/10 to-indigo-400/40 border border-zinc-50/10 start-up">
                     <div className="px-2.5 py-2.5 text-xl bg-[#d98df0]  rounded-md text-black">
                         New
@@ -30,15 +31,18 @@ const Hero: React.FC = () => {
                         No.1 Startup Studio of 2025
                     </span>
                 </div>
+                {/* Blurred fade in */}
                 <div className="flex flex-col gap-5">
                     <h2 id="hero-title" className="text-[5.5em] leading-none text-white max-md:text-7xl max-sm:text-[2.7em]">
                         Cloud and Web Development
                     </h2>
+                    {/* Transparency Reveal */}
                     <p className="text-xl text-zinc-400 font-light max-md:text-xl max-sm:text-base">
                         We specialize in crafting unique digital presence that help
                         businesses grow and stand out in their industries.
                     </p>
                 </div>
+                {/* Transparency Reveal starting left to right slight delay right button */}
                 <div className="flex gap-6 items-start max-sm:flex-col max-sm:items-start">
                     <button
                         className="px-3 lg:px-5 py-2 lg:py-2 text-xl text-black rounded-xl bg-zinc-200/90"
