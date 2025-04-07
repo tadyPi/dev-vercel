@@ -1,7 +1,7 @@
 # Dev Vercel
 
 ## Overview
-This project is a Next.js application that leverages [Figma](https://www.figma.com/) for design, [Builder.io](https://www.builder.io/) for generating React code, and [Visual Studio Code (VS Code)](https://code.visualstudio.com/) for development. 
+This project is a recreation of the Velora wordpress theme.This is a Next.js application that leverages [Figma](https://www.figma.com/) for design, [Builder.io](https://www.builder.io/) for generating React code, and [Visual Studio Code (VS Code)](https://code.visualstudio.com/) for development. 
 It also uses [Tailwind CSS](https://tailwindcss.com/) for styling.
 
 ## Figma Design
