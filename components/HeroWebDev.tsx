@@ -37,11 +37,11 @@ const HeroWebDev: React.FC = () => {
                         Web Development and Cloud Services.
                     </h2>
                     {/* Transparency Reveal */}
-                    <p className="text-xl text-zinc-300/80 font-light max-md:text-xl max-sm:text-base">
-                        Using <span className="text-[#76d1e1]">React</span> and <span className="text-[#808181d5]">Next.js</span>, we create stunning and responsive web applications that are fast and user-friendly.
+                    <p className="text-base lg:text-lg text-zinc-300/80 font-light max-md:text-xl max-sm:text-base">
+                        Using <span className="text-[#76d1e1] text-base font-semibold lg:text-xl lg:font-medium">React</span> and <span className="text-[#808181d5] text-base font-semibold lg:text-xl lg:font-medium">Next.js</span>, we create stunning and responsive web applications that are fast and user-friendly.
                     </p>
-                    <p className="text-xl text-zinc-300/80 font-light max-md:text-xl max-sm:text-base">
-                        We are leveraging the power of the Cloud using <span className="text-[#df9408]">Amazon Web Services</span> to manage and secure our clients infrastructure.
+                    <p className="text-base lg:text-lg text-zinc-300/80 font-light max-md:text-xl max-sm:text-base">
+                        We are leveraging the power of the Cloud using <span className="text-[#df9408] text-base font-semibold lg:text-xl lg:font-medium">Amazon Web Services</span> to manage and secure our clients infrastructure.
                     </p>
                 </div>
                 {/* Transparency Reveal starting left to right slight delay right button */}
@@ -70,13 +70,13 @@ const HeroWebDev: React.FC = () => {
                 <div className="absolute top-0 right-0 h-full w-[70%] bg-black opacity-80 z-10"></div>
 
                 {/* Non-opacity right cover */}
-                <div className="absolute top-0 right-0 h-full w-[64%] bg-black z-20"></div>
+                <div className="absolute top-0 right-0 h-full w-[60%] bg-black z-20"></div>
 
                 {/* Non-opacity left cover */}
                 <div className="absolute top-0 left-0 h-full w-[4%] bg-black z-20"></div>
 
                 {/* View window */}
-                <div className="absolute top-0 left-[5%] border-t border-zinc-200/10 h-full w-[30%] z-20 pointer-events-none"></div>
+                <div className="absolute top-0 left-[2%] border-t border-zinc-200/10 h-full w-[50%] z-20 pointer-events-none"></div>
 
                 {/* Scrolling content */}
                 <div className="flex gap-24 mt-4 items-center animate-scroll text-zinc-400/50 lg:text-zinc-400/30">

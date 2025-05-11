@@ -13,7 +13,7 @@ const AboutWebDev: React.FC/*<AboutProps>*/ = (/*{ onGetInTouch }*/) => {
             <div className="flex flex-col gap-14 max-w-[701px]">
                 <div className="flex flex-col sm:mt-9 lg:mt-20 gap-10">
                     <div className="flex gap-1.5 items-center">
-                        <div className="w-1.5 h-1.5 rounded-full bg-zinc-300" aria-hidden="true"></div>
+                        <div className="w-1.5 h-1.5 hidden lg:block rounded-full bg-zinc-300" aria-hidden="true"></div>
                         <span className="text-xl text-white">About Load of Pixels</span>
                     </div>
                     <h2 id="about-title" className="text-[3.2em] leading-tight max-md:text-5xl max-sm:text-3xl">
