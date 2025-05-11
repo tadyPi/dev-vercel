@@ -14,8 +14,8 @@ const Header: React.FC/*<HeaderProps>*/ = (/*{ onGetInTouch }*/) => {
                 Load of Pixels
             </h1>
             <nav className="flex gap-10 items-center mr-72 max-md:hidden" role="navigation">
-                <a href="#home" className="text-base text-white cursor-pointer">Home</a>
-                <a href="#web-developer" className="text-base text-white cursor-pointer">Web Developer</a>
+                <a href="#" className="text-base text-white cursor-pointer">Home</a>
+                <a href="/web-development" className="text-base text-white cursor-pointer">Web Developer</a>
                 <a href="#ux-design" className="text-base text-white cursor-pointer">UX Design</a>
                 <a href="#cloud-services" className="text-base text-white cursor-pointer">Cloud Services</a>
                 <a href="#contact" className="text-base text-white cursor-pointer">Contact</a>
