@@ -7,7 +7,7 @@ import { FaCloud, FaReact } from 'react-icons/fa';
 
 const Hero: React.FC = () => {
     return (
-        <section className="relative flex flex-col ml-0 lg:ml-32 px-24 py-16 max-md:px-10 max-sm:px-5" aria-labelledby="hero-title">
+        <section className="relative flex flex-col ml-0 px-24 py-16 max-md:px-10 max-sm:px-5" aria-labelledby="hero-title">
             {/* Video Background */}
             <video
                 className="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-70"
@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
             </video>
 
             {/* Hero Content */}
-            <div className="flex flex-col relative top-26 sm:top-35 lg:top-20 gap-8 max-w-[878px]">
+            <div className="flex flex-col w-full lg:max-w-[1100px] relative top-26 lg:mt-8 ml-0 lg:ml-32 sm:top-35 lg:top-20 gap-8">
                 {/* Slow transparency Reveal */}
                 <div className="flex gap-2 w-[60%] sm:w-[50%] lg:w-[36%] rounded-md p-1 items-center bg-gradient-to-b from-zinc-50/10 to-indigo-400/40 border border-zinc-50/10 start-up">
                     <h2 className="px-2.5 py-2.5 text-lg bg-[#87b7cb] border border-zinc-400/40 rounded-md text-black">
