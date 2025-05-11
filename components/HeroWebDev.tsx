@@ -23,23 +23,25 @@ const HeroWebDev: React.FC = () => {
             {/* Hero Content */}
             <div className="flex flex-col relative top-26 sm:top-35 lg:top-20 gap-8 max-w-[878px]">
                 {/* Slow transparency Reveal */}
-                <div className="flex gap-2 w-[60%] sm:w-[50%] lg:w-[36%] rounded-md p-1 items-center bg-gradient-to-b from-zinc-50/10 to-indigo-400/40 border border-zinc-50/10 start-up">
+                <div className="flex gap-2 w-[51%] sm:w-[50%] lg:w-[36%] rounded-md p-1 items-center bg-gradient-to-b from-zinc-50/10 to-indigo-400/40 border border-zinc-50/10 start-up">
                     <h2 className="px-2.5 py-2.5 text-lg bg-[#87b7cb] border border-zinc-400/40 rounded-md text-black">
                         New
                     </h2>
                     <span className="text-sm lg:text-lg p-2 font-light rounded-md text-stone-300">
-                        No.1 Startup Studio of 2025
+                        HTML CSS & JavaScript
                     </span>
                 </div>
                 {/* Blurred fade in */}
                 <div className="flex flex-col gap-5">
                     <h2 id="hero-title" className="text-[5.5em] leading-none text-white max-md:text-7xl max-sm:text-[2.7em]">
-                        Cloud and Web Developer.
+                        Web Development and Cloud Services.
                     </h2>
                     {/* Transparency Reveal */}
                     <p className="text-xl text-zinc-300/80 font-light max-md:text-xl max-sm:text-base">
-                        We specialize in crafting unique digital presence that help
-                        businesses grow and stand out in their industries.
+                        Using <span className="text-[#76d1e1]">React</span> and <span className="text-[#808181d5]">Next.js</span>, we create stunning and responsive web applications that are fast and user-friendly.
+                    </p>
+                    <p className="text-xl text-zinc-300/80 font-light max-md:text-xl max-sm:text-base">
+                        We are leveraging the power of the Cloud using <span className="text-[#df9408]">Amazon Web Services</span> to manage and secure our clients infrastructure.
                     </p>
                 </div>
                 {/* Transparency Reveal starting left to right slight delay right button */}
@@ -51,7 +53,7 @@ const HeroWebDev: React.FC = () => {
                         Contact Us
                     </button>
                     <button
-                        className="px-4 py-1.5 lg:px-5 lg:py-2 text-xl font-light text-zinc-200 rounded-xl bg-zinc-800/70 border border-zinc-400 hover:bg-zinc-500/80 transition duration-200 ease-in-out"
+                        className="px-4 py-2 lg:px-5 lg:py-2 text-base lg:text-lg font-light text-zinc-200 rounded-xl bg-zinc-800/70 border border-zinc-400 hover:bg-zinc-500/80 transition duration-200 ease-in-out"
                         aria-label="Learn about what services we offer, including Google UX Design, Full Stack Development, and Cloud Services"
                     >
                         Our Services
