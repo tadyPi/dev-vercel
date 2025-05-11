@@ -5,7 +5,7 @@ import { FiFigma } from 'react-icons/fi';
 import { AiFillGithub } from 'react-icons/ai';
 import { FaCloud, FaReact } from 'react-icons/fa';
 
-const Hero: React.FC = () => {
+const HeroWebDev: React.FC = () => {
     return (
         <section className="relative flex flex-col ml-0 lg:ml-32 px-24 py-16 max-md:px-10 max-sm:px-5" aria-labelledby="hero-title">
             {/* Video Background */}
@@ -34,7 +34,6 @@ const Hero: React.FC = () => {
                 {/* Blurred fade in */}
                 <div className="flex flex-col gap-5">
                     <h2 id="hero-title" className="text-[5.5em] leading-none text-white max-md:text-7xl max-sm:text-[2.7em]">
-                        Google UX Designer
                         Cloud and Web Developer.
                     </h2>
                     {/* Transparency Reveal */}
@@ -90,4 +89,4 @@ const Hero: React.FC = () => {
     );
 };
 
-export default Hero;
+export default HeroWebDev;
