@@ -1,5 +1,6 @@
 "use client";
 
+import Link from 'next/link';
 import React from 'react';
 
 // interface CallToActionProps {
@@ -23,13 +24,14 @@ const CallToAction: React.FC/*<CallToActionProps>*/ = (/*{ onViewServices }*/) =
                     your vision into reality with expert support.
                 </p>
             </div>
-            <button
-                className="px-4 py-3 text-2xl text-gray-200 bg-blue-600 rounded-2xl shadow-[2px_-2px_50px] shadow-blue-600"
-                // onClick={onViewServices}
-                aria-label="View Services"
+            <Link href="/"
+                className="px-4 py-3 text-lg text-gray-200 bg-gradient-to-b from-zinc-500/10 to-indigo-700/70 border border-zinc-50/10 rounded-xl shadow-[2px_-2px_70px]
+                    shadow-indigo-700 max-md:hidden max-md:text-lg max-sm:text-base hover:border-indigo-700/70 hover:bg-gradient-to-b hover:from-indigo-500 hover:to-indigo-600/70 hover:shadow-[2px_0px_20px] hover:shadow-indigo-700/50"
+                // onClick={onGetInTouch}
+                aria-label="Get in Touch"
             >
-                View Services
-            </button>
+                Get in Touch
+            </Link>
         </section>
     );
 };
