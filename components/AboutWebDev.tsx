@@ -40,10 +40,10 @@ const AboutWebDev: React.FC/*<AboutProps>*/ = (/*{ onGetInTouch }*/) => {
                         <span className="text-sm sm:text-2xl lg:text-base text-white">Figma Designer.</span>
                     </div>
                 </div>
-                <div className="flex gap-16 items-center max-sm:flex-col max-sm:gap-8">
+                <div className="flex gap-16 items-center top-8 max-sm:flex-col max-sm:gap-8">
                     <Link href="/"
                         className="px-4 py-3 text-lg text-gray-200 bg-gradient-to-b from-zinc-500/10 to-indigo-700/70 border border-zinc-50/10 rounded-xl shadow-[2px_-2px_70px]
-                    shadow-indigo-700 max-md:hidden max-md:text-lg max-sm:text-base hover:border-indigo-700/70 hover:bg-gradient-to-b hover:from-indigo-500 hover:to-indigo-600/70 hover:shadow-[2px_-2px_50px] hover:shadow-indigo-700"
+                    shadow-indigo-700 max-md:hidden max-md:text-lg max-sm:text-base hover:border-indigo-700/70 hover:bg-gradient-to-b hover:from-indigo-500 hover:to-indigo-600/70 hover:shadow-[2px_0px_20px] hover:shadow-indigo-700/50"
                         // onClick={onGetInTouch}
                         aria-label="Get in Touch"
                     >

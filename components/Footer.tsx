@@ -33,8 +33,8 @@ const Footer: React.FC = () => {
                 </div>
                 <nav className="flex gap-32 pt-8 max-md:flex-wrap" aria-label="Footer Navigation">
                     <div className="flex flex-col gap-11">
-                        <h4 className="text-2xl font-light text-[#d98df0]">Services</h4>
-                        <ul className="flex flex-col gap-11">
+                        <h4 className="text-2xl font-light text-indigo-700">Services</h4>
+                        <ul className="flex flex-col gap-3">
                             <li><a href="#web-development" className="text-xl font-light text-white">Web development</a></li>
                             <li><a href="#cloud-services" className="text-xl font-light text-white">Cloud Services</a></li>
                             <li><a href="#react" className="text-xl font-light text-white">React and React Native</a></li>
@@ -43,8 +43,8 @@ const Footer: React.FC = () => {
                         </ul>
                     </div>
                     <div className="flex flex-col gap-11">
-                        <h4 className="text-2xl font-light text-[#d98df0]">Resources</h4>
-                        <ul className="flex flex-col gap-11">
+                        <h4 className="text-2xl font-light text-indigo-700">Resources</h4>
+                        <ul className="flex flex-col gap-3">
                             <li><a href="#blog" className="text-xl font-light text-white">Blog</a></li>
                             <li><a href="#case-studies" className="text-xl font-light text-white">Case Studies</a></li>
                             <li><a href="#tutorials" className="text-xl font-light text-white">Tutorials</a></li>

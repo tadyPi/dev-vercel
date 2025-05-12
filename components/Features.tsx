@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 interface FeatureCardProps {
@@ -29,7 +30,7 @@ const Features: React.FC = () => {
         {
             icon: "/app-grid.svg",
             title: "Mobile App Development",
-            description: "Mobile app development focuses on creating digital solutions that provide users with valuable and engaging experiences. This includes the entire process of acquiring and using the app, addressing aspects such as branding, design, user-friendliness, and functionality."
+            description: "We specialize in creating mobile applications that are not only visually appealing but also highly functional. Our team is proficient in using React Native to develop cross-platform apps that provide a seamless user experience on both iOS and Android devices."
         },
         {
             icon: "/bar-chart.svg",
@@ -58,7 +59,7 @@ const Features: React.FC = () => {
                     </div>
                     <h2 id="features-title" className="text-6xl leading-tight text-center max-md:text-5xl max-sm:text-3xl">
                         <span className="text-white">Utilizing a range of technologies to create </span>
-                        <span className="text-[#d98df0]">dynamic and engaging websites!</span>
+                        <span className="text-indigo-700">dynamic and engaging websites!</span>
                     </h2>
                     <p className="text-base text-center text-zinc-400">
                         We design and develop custom web apps
@@ -67,15 +68,16 @@ const Features: React.FC = () => {
                 <p className="text-base text-center text-white">
                     Using Html CSS and JavaScript.
                 </p>
-                <button
-                    className="px-4 py-3 text-2xl text-gray-200 bg-blue-600 rounded-2xl shadow-[2px_-2px_50px] shadow-blue-600"
+                <Link href="/"
+                    className="px-4 py-3 text-lg text-gray-200 bg-gradient-to-b from-zinc-500/10 to-indigo-700/70 border border-zinc-50/10 rounded-xl shadow-[2px_-2px_70px]
+                    shadow-indigo-700 max-md:hidden max-md:text-lg max-sm:text-base hover:border-indigo-700/70 hover:bg-gradient-to-b hover:from-indigo-500 hover:to-indigo-600/70 hover:shadow-[2px_0px_20px] hover:shadow-indigo-700/50"
                     // onClick={onGetInTouch}
                     aria-label="Get in Touch"
                 >
                     Get in Touch
-                </button>
+                </Link>
             </div>
-            <div className="grid grid-cols-3 mt-4 gap-7 max-w-[1203px] max-md:grid-cols-2 max-sm:grid-cols-1">
+            <div className="grid grid-cols-3 mt-4 gap-7 max-w-[1203px] max-md:grid-cols-2 max-sm:grid-cols-1 ">
                 {features.map((feature, index) => (
                     <FeatureCard key={index} {...feature} />
                 ))}
