@@ -23,8 +23,8 @@ const Hero: React.FC = () => {
             {/* Hero Content */}
             <div className="flex flex-col w-full lg:max-w-[1100px] relative top-26 lg:mt-8 ml-0 lg:ml-32 sm:top-35 lg:top-20 gap-8">
                 {/* Slow transparency Reveal */}
-                <div className="flex gap-2 w-[60%] sm:w-[50%] lg:w-[36%] rounded-md p-1 items-center bg-gradient-to-b from-zinc-50/10 to-indigo-400/40 border border-zinc-50/10 start-up">
-                    <h2 className="px-2.5 py-2.5 text-lg bg-[#87b7cb] border border-zinc-400/40 rounded-md text-black">
+                <div className="flex gap-2 w-[60%] sm:w-[50%] lg:w-[29%] rounded-md p-1 items-center bg-gradient-to-b from-zinc-50/10 to-indigo-600/50 border border-zinc-50/10 start-up">
+                    <h2 className="px-2.5 py-2.5 text-lg bg-[#441e97] border border-zinc-400/40 rounded-md text-zinc-300">
                         New
                     </h2>
                     <span className="text-sm lg:text-lg p-2 font-light rounded-md text-stone-300">
@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
                         UI/UX Design <br className="hidden lg:block" />Cloud and Web Developer.
                     </h1>
                     {/* Transparency Reveal */}
-                    <p className="text-xl text-zinc-300/80 font-light max-md:text-xl max-sm:text-base">
+                    <p className="text-xl text-zinc-400/90 max-md:text-xl max-sm:text-base">
                         We specialize in crafting unique digital presence that help
                         businesses grow and stand out in their industries.
                     </p>
@@ -45,13 +45,13 @@ const Hero: React.FC = () => {
                 {/* Transparency Reveal starting left to right slight delay right button */}
                 <div className="flex gap-6 items-start max-sm:flex-col max-sm:items-start">
                     <button
-                        className="px-4 py-3.5 lg:px-5 lg:py-2 text-base lg:text-lg text-zinc-100 rounded-xl bg-zinc-800/70 border border-zinc-400 hover:bg-zinc-500/80 transition duration-200 ease-in-out"
+                        className="px-4 py-2.5 lg:px-5 lg:py-3 text-base lg:text-lg text-zinc-100 rounded-xl bg-zinc-800/70 border border-zinc-400 hover:bg-zinc-500/80 transition duration-200 ease-in-out"
                         aria-label="Learn about Load of Pixels Google UX Designer, Cloud and Web Developer"
                     >
                         Contact Us
                     </button>
                     <button
-                        className="px-4 py-1.5 lg:px-5 lg:py-2 text-xl font-light text-zinc-200 rounded-xl bg-zinc-800/70 border border-zinc-400 hover:bg-zinc-500/80 transition duration-200 ease-in-out"
+                        className="px-4 py-2.5 lg:px-5 lg:py-3 text-xl font-light text-zinc-200 rounded-xl bg-zinc-800/70 border border-zinc-400 hover:bg-zinc-500/80 transition duration-200 ease-in-out"
                         aria-label="Learn about what services we offer, including Google UX Design, Full Stack Development, and Cloud Services"
                     >
                         Our Services
