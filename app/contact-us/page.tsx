@@ -63,7 +63,7 @@ export default function Contact() {
                         {/* Updated form with dynamic mailto link */}
                         <form className="mt-10 w-full max-w-lg" onSubmit={handleSubmit}>
                             <div className="mb-4">
-                                <label className="block text-indigo-700 text-sm font-bold mb-2" htmlFor="email">
+                                <label className="block text-white text-sm font-bold mb-2" htmlFor="email">
                                     Email
                                 </label>
                                 <input
@@ -80,7 +80,7 @@ export default function Contact() {
                                 <Button asChild>
                                     <button
                                         className="px-4 py-3 text-lg text-gray-200 bg-gradient-to-b from-zinc-500/10 to-indigo-700/70 border border-zinc-50/10 rounded-xl shadow-[2px_-2px_70px]
-                    shadow-indigo-700 max-md:hidden max-md:text-lg max-sm:text-base hover:border-indigo-700/70 hover:bg-gradient-to-b hover:from-indigo-500 hover:to-indigo-600/70 hover:shadow-[2px_-2px_50px] hover:shadow-indigo-700"
+                    shadow-indigo-700 max-md:hidden max-md:text-lg max-sm:text-base hover:border-indigo-700/70 hover:bg-gradient-to-b hover:from-indigo-500 hover:to-indigo-600/70 hover:shadow-[2px_2px_10px]"
                                         type="submit"
                                     >
                                         Send Email
@@ -96,7 +96,7 @@ export default function Contact() {
                                 <Button asChild>
                                     <button
                                         className="px-4 py-3 text-lg text-gray-200 bg-gradient-to-b from-zinc-500/10 to-indigo-700/70 border border-zinc-50/10 rounded-xl shadow-[2px_-2px_70px]
-                    shadow-indigo-700 max-md:hidden max-md:text-lg max-sm:text-base hover:border-indigo-700/70 hover:bg-gradient-to-b hover:from-indigo-500 hover:to-indigo-600/70 hover:shadow-[2px_-2px_50px] hover:shadow-indigo-700"
+                    shadow-indigo-700 max-md:hidden max-md:text-lg max-sm:text-base hover:border-indigo-700/70 hover:bg-gradient-to-b hover:from-indigo-500 hover:to-indigo-600/70 hover:shadow-[2px_-2px_10px] hover:shadow-indigo-700"
                                         onClick={handleCallUs}
                                     >
                                         Call Us
