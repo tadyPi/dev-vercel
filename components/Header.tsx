@@ -19,7 +19,7 @@ const Header: React.FC/*<HeaderProps>*/ = (/*{ onGetInTouch }*/) => {
                 <a href="/web-development" className="text-base text-white cursor-pointer hover:text-indigo-400">Web Developer</a>
                 <a href="/ux-design" className="text-base text-white cursor-pointer hover:text-indigo-400">UX Design</a>
                 <a href="/cloud-services" className="text-base text-white cursor-pointer hover:text-indigo-400">Cloud Services</a>
-                <a href="#contact" className="text-base text-white cursor-pointer hover:text-indigo-400">Contact</a>
+                <a href="/contact-us" className="text-base text-white cursor-pointer hover:text-indigo-400">Contact</a>
             </nav>
             <div className="flex gap-6 items-center">
                 <Link href="/"
