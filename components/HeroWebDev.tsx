@@ -23,8 +23,8 @@ const HeroWebDev: React.FC = () => {
             {/* Hero Content */}
             <div className="flex flex-col relative top-26 sm:top-35 lg:top-20 gap-8 max-w-[878px]">
                 {/* Slow transparency Reveal */}
-                <div className="flex gap-2 w-[51%] sm:w-[50%] lg:w-[36%] rounded-md p-1 items-center bg-gradient-to-b from-zinc-50/10 to-indigo-400/40 border border-zinc-50/10 start-up">
-                    <h2 className="px-2.5 py-2.5 text-lg bg-[#87b7cb] border border-zinc-400/40 rounded-md text-black">
+                <div className="flex gap-2 w-[60%] sm:w-[50%] lg:w-[33%] rounded-md p-1 items-center bg-gradient-to-b from-zinc-50/10 to-indigo-600/50 border border-zinc-50/10 start-up">
+                    <h2 className="px-2.5 py-2.5 text-lg bg-[#441e97] border border-zinc-400/40 rounded-md text-zinc-300">
                         New
                     </h2>
                     <span className="text-sm lg:text-lg p-2 font-light rounded-md text-stone-300">
@@ -33,7 +33,7 @@ const HeroWebDev: React.FC = () => {
                 </div>
                 {/* Blurred fade in */}
                 <div className="flex flex-col gap-5">
-                    <h2 id="hero-title" className="text-[5.5em] leading-none text-white max-md:text-7xl max-sm:text-[2.7em]">
+                    <h2 id="hero-title" className="text-[5.5em] leading-none text-white max-md:text-7xl max-sm:text-[2.7em] gradient-text">
                         Web Development and Cloud Services.
                     </h2>
                     {/* Transparency Reveal */}

@@ -33,11 +33,11 @@ const Hero: React.FC = () => {
                 </div>
                 {/* Blurred fade in */}
                 <div className="flex flex-col gap-5">
-                    <h1 id="hero-title" className="text-base lg:text-[5.5em] leading-none text-white max-md:text-7xl max-sm:text-6xl gradient-text">
+                    <h1 id="hero-title" className="text-[5.5em] leading-none text-white max-md:text-7xl max-sm:text-[2.7em] gradient-text">
                         UI/UX Design <br className="hidden lg:block" />Cloud and Web Developer.
                     </h1>
                     {/* Transparency Reveal */}
-                    <p className="text-xl text-zinc-400/90 max-md:text-xl max-sm:text-base">
+                    <p className="text-xl text-zinc-400/90 max-md:text-xl max-sm:text-[2.7rem]">
                         We specialize in crafting unique digital presence that help
                         businesses grow and stand out in their industries.
                     </p>

@@ -10,7 +10,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ icon, title, description }) =
     <div className="flex flex-col gap-2 p-6 rounded-3xl bg-[linear-gradient(180deg,#141414_3.37%,rgba(90,124,247,0.57)_319.31%)] border-[black] border-b-blue-600 border-t-[0.922px] border-x-[solid]">
         <img src={icon} alt="" className="w-[59px] h-[59px]" aria-hidden="true" />
         <h3 className="mt-8 text-2xl text-white">{title}</h3>
-        <p className="text-xs text-zinc-400">{description}</p>
+        <p className="text-base text-zinc-400">{description}</p>
     </div>
 );
 
@@ -18,12 +18,12 @@ const Features: React.FC = () => {
     const features = [
         {
             icon: "/battery.svg",
-            title: "Innovative UX Design",
-            description: "User experience design focuses on creating products that provide meaningful and relevant experiences to users. It involves the design of the entire process of acquiring and integrating the product, including aspects of branding, design, usability, and function."
+            title: "Google UX Designer",
+            description: "I embrace equity-focused design, Creating inclusive experiences that can be enjoyed by a diverse range of users.I am dedicated to delivering exceptional user experiences by following a meticulous design process."
         },
         {
             icon: "/computer-chip.svg",
-            title: "Cutting-edge Web Development",
+            title: "Web development",
             description: "Web development is all about crafting digital products that deliver valuable and engaging experiences for users. This encompasses the complete journey of obtaining and utilizing the product, covering elements like branding, design, usability, and functionality."
         },
         {
@@ -34,22 +34,22 @@ const Features: React.FC = () => {
         {
             icon: "/bar-chart.svg",
             title: "Innovative Cloud Solutions",
-            description: "Innovative cloud solutions prioritize crafting products that deliver significant and relevant experiences for users. This encompasses the complete journey of obtaining and utilizing the product, covering elements such as branding, design, usability, and functionality."
+            description: "Whether you are looking to migrate to the cloud, optimize your existing infrastructure, or implement advanced cloud-native solutions.Our cloud services are designed to help businesses scale and optimize their operations."
         },
         {
             icon: "/microphone.svg",
             title: "Web Design",
-            description: "Cutting-edge web design focuses on creating products that provide meaningful and impactful experiences for users. This includes every aspect of the user journey, from discovering the product to engaging with it, addressing key factors like branding, aesthetics, user-friendliness, and performance."
+            description: "At the core of our design process, we harness the power of industry-leading design platform: Figma. The versatility of Figma design tools allow us to conceptualize, prototype, and refine our designs with precision and efficiency."
         },
         {
             icon: "/computer-chip.svg",
             title: "Comprehensive Support",
-            description: "This encompasses all stages of the user journey, from product discovery to active engagement, while considering essential elements such as branding, visual appeal, usability, and overall performance."
+            description: "We offer comprehensive support throughout the development process, including post-launch maintenance, updates, and technical assistance to ensure your digital product remains effective and up-to-date."
         }
     ];
 
     return (
-        <section className="flex flex-col px-6 lg:px-28 mt-20 lg:mt-32 gap-10 items-center" aria-labelledby="features-title">
+        <section className="flex flex-col px-6 lg:px-28 mt-20 lg:mt-10 gap-10 items-center" aria-labelledby="features-title">
             <div className="flex flex-col gap-10 items-center max-w-[872px]">
                 <div className="flex flex-col gap-10 w-full">
                     <div className="flex gap-1.5 justify-center items-center">
