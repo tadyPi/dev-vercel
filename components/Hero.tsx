@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
                         UI/UX Design <br className="hidden lg:block" />Cloud and Web Developer.
                     </h1>
                     {/* Transparency Reveal */}
-                    <p className="text-xl text-zinc-400/90 max-md:text-xl max-sm:text-[2.7rem]">
+                    <p className="text-base lg:text-lg text-zinc-300/80 font-light max-md:text-xl max-sm:text-base">
                         We specialize in crafting unique digital presence that help
                         businesses grow and stand out in their industries.
                     </p>

@@ -15,14 +15,14 @@ const Header: React.FC/*<HeaderProps>*/ = (/*{ onGetInTouch }*/) => {
                 Load of Pixels
             </h1>
             <nav className="flex gap-10 items-center mr-68 max-md:hidden" role="navigation">
-                <a href="#" className="text-base text-white cursor-pointer hover:text-indigo-400">Home</a>
-                <a href="/web-development" className="text-base text-white cursor-pointer hover:text-indigo-400">Web Developer</a>
-                <a href="/ux-design" className="text-base text-white cursor-pointer hover:text-indigo-400">UX Design</a>
-                <a href="/cloud-services" className="text-base text-white cursor-pointer hover:text-indigo-400">Cloud Services</a>
-                <a href="/contact-us" className="text-base text-white cursor-pointer hover:text-indigo-400">Contact</a>
+                <Link href="/" className="text-base text-white cursor-pointer hover:text-indigo-400">Home</Link>
+                <Link href="/web-development" className="text-base text-white cursor-pointer hover:text-indigo-400">Web Developer</Link>
+                <Link href="/ux-design" className="text-base text-white cursor-pointer hover:text-indigo-400">UX Design</Link>
+                <Link href="/cloud-services" className="text-base text-white cursor-pointer hover:text-indigo-400">Cloud Services</Link>
+                <Link href="/contact-us" className="text-base text-white cursor-pointer hover:text-indigo-400">Contact</Link>
             </nav>
             <div className="flex gap-6 items-center">
-                <Link href="/"
+                <Link href="/contact-us"
                     className="px-4 py-3 text-lg text-gray-200 bg-gradient-to-b from-zinc-500/10 to-indigo-700/70 border border-zinc-50/10 rounded-xl shadow-[2px_-2px_70px]
                     shadow-indigo-700 max-md:hidden max-md:text-lg max-sm:text-base hover:border-indigo-700/70 hover:bg-gradient-to-b hover:from-indigo-500 hover:to-indigo-600/70 hover:shadow-[2px_-2px_50px] hover:shadow-indigo-700"
                     // onClick={onGetInTouch}
