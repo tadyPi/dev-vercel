@@ -4,6 +4,7 @@ import React from 'react';
 import { FiFigma } from 'react-icons/fi';
 import { AiFillGithub } from 'react-icons/ai';
 import { FaCloud, FaReact } from 'react-icons/fa';
+import Link from 'next/link';
 
 const Hero: React.FC = () => {
     return (
@@ -23,7 +24,7 @@ const Hero: React.FC = () => {
             {/* Hero Content */}
             <div className="flex flex-col w-full lg:max-w-[1100px] relative top-26 lg:mt-8 ml-0 lg:ml-32 sm:top-35 lg:top-20 gap-8">
                 {/* Slow transparency Reveal */}
-                <div className="flex gap-2 w-[60%] sm:w-[50%] lg:w-[29%] rounded-md p-1 items-center bg-gradient-to-b from-zinc-50/10 to-indigo-600/50 border border-zinc-50/10 start-up">
+                <div className="flex gap-2 w-[66%] sm:w-[50%] lg:w-[29%] rounded-md p-1 items-center bg-gradient-to-b from-zinc-50/10 to-indigo-600/50 border border-zinc-50/10 start-up">
                     <h2 className="px-2.5 py-2.5 text-lg bg-[#441e97] border border-zinc-400/40 rounded-md text-zinc-300">
                         New
                     </h2>
@@ -34,7 +35,7 @@ const Hero: React.FC = () => {
                 {/* Blurred fade in */}
                 <div className="flex flex-col gap-5">
                     <h1 id="hero-title" className="text-[5.5em] leading-none text-white max-md:text-7xl max-sm:text-[2.7em] gradient-text">
-                        UI/UX Design <br className="hidden lg:block" />Cloud and Web Developer.
+                        UI/UX Design <br className="hidden lg:block" />Web Development.
                     </h1>
                     {/* Transparency Reveal */}
                     <p className="text-base lg:text-lg text-zinc-300/80 font-light max-md:text-xl max-sm:text-base">
@@ -44,18 +45,20 @@ const Hero: React.FC = () => {
                 </div>
                 {/* Transparency Reveal starting left to right slight delay right button */}
                 <div className="flex gap-6 items-start max-sm:flex-col max-sm:items-start">
-                    <button
-                        className="px-4 py-2.5 lg:px-5 lg:py-3 text-base lg:text-lg text-zinc-100 rounded-xl bg-zinc-800/70 border border-zinc-400 hover:bg-zinc-500/80 transition duration-200 ease-in-out"
+                    <Link
+                        href="/contact-us"
+                        className="px-4 py-2.5 lg:px-5 lg:py-3 text-base lg:text-lg text-zinc-300 rounded-xl bg-zinc-800/50 backdrop-blur-3xl border border-zinc-400/70 hover:bg-zinc-700/60 hover:translate-x-1 transition duration-200 ease-in-out"
                         aria-label="Learn about Load of Pixels Google UX Designer, Cloud and Web Developer"
                     >
                         Contact Us
-                    </button>
-                    <button
-                        className="px-4 py-2.5 lg:px-5 lg:py-3 text-xl font-light text-zinc-200 rounded-xl bg-zinc-800/70 border border-zinc-400 hover:bg-zinc-500/80 transition duration-200 ease-in-out"
+                    </Link>
+                    <Link
+                        href="/cloud-services"
+                        className="px-4 py-2.5 lg:px-5 lg:py-3 text-base lg:text-lg font-light text-zinc-300 rounded-xl bg-zinc-800/50 backdrop-blur-3xl border shadow-2xl border-zinc-400/70 hover:bg-zinc-900/60 hover:translate-x-1 hover:shadow-[2px_-2px_50px] hover:shadow-indigo-700/70 hover:border-indigo-700 transition duration-200 ease-in-out"
                         aria-label="Learn about what services we offer, including Google UX Design, Full Stack Development, and Cloud Services"
                     >
                         Our Services
-                    </button>
+                    </Link>
                 </div>
             </div>
 
