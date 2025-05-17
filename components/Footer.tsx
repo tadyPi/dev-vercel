@@ -5,7 +5,7 @@ import React from 'react';
 const Footer: React.FC = () => {
     return (
         <footer className="flex flex-col mt-32 px-44 py-40 bg-gray-950 max-md:px-10 max-md:py-20 max-sm:px-5 max-sm:py-10" role="contentinfo">
-            <div className="flex gap-32 items-start max-md:flex-col">
+            <div className="flex md:gap-4 xl:gap-32 items-start max-md:flex-col">
                 <div className="flex flex-col gap-20 max-w-[701px]">
                     <div className="flex flex-col gap-12">
                         <div className="h-px bg-[linear-gradient(90deg,#242424_0%,#999_53.56%,#212121_100%)] w-[426px] max-md:w-full" aria-hidden="true"></div>

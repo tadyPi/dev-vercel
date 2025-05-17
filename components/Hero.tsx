@@ -22,9 +22,9 @@ const Hero: React.FC = () => {
             </video>
 
             {/* Hero Content */}
-            <div className="flex flex-col w-full lg:max-w-[1100px] relative top-26 lg:mt-8 ml-0 lg:ml-32 sm:top-35 lg:top-20 gap-8">
+            <div className="flex flex-col w-full lg:max-w-[1100px] relative top-26 md:top-20 lg:mt-8 ml-0 lg:ml-20 sm:top-35 lg:top-20 gap-8 md:gap-4">
                 {/* Slow transparency Reveal */}
-                <div className="flex gap-2 w-[66%] sm:w-[50%] lg:w-[29%] rounded-md p-1 items-center bg-gradient-to-b from-zinc-50/10 to-indigo-600/50 border border-zinc-50/10 start-up">
+                <div className="flex gap-2 w-[66%] sm:w-[50%] md:w-[32%] lg:w-[29%] rounded-md p-1 items-center bg-gradient-to-b from-zinc-50/10 to-indigo-600/50 border border-zinc-50/10 start-up">
                     <h2 className="px-2.5 py-2.5 text-lg bg-[#441e97] border border-zinc-400/40 rounded-md text-zinc-300">
                         New
                     </h2>
@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
                 </div>
                 {/* Blurred fade in */}
                 <div className="flex flex-col gap-5">
-                    <h1 id="hero-title" className="text-[5.5em] leading-none text-white max-md:text-7xl max-sm:text-[2.7em] gradient-text">
+                    <h1 id="hero-title" className="text-base leading-none text-white md:text-7xl max-sm:text-[2.7em] lg:text-[5.5em] gradient-text">
                         UI/UX Design <br className="hidden lg:block" />Web Development.
                     </h1>
                     {/* Transparency Reveal */}

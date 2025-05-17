@@ -21,9 +21,9 @@ const LoadOfPixels: React.FC = () => {
   // };
 
   return (
-    <div className="flex flex-col bg-black min-h-screen">
+    <div className="w-full flex flex-col bg-black min-h-screen">
       <Header /*onGetInTouch={handleGetInTouch}*/ />
-      <main>
+      <main className='w-full'>
         <Hero /*onConnectWithUs={handleConnectWithUs}*/ />
         <About /*onGetInTouch={handleGetInTouch}*/ />
         <Features />

@@ -8,7 +8,7 @@ import React from 'react';
 
 const About: React.FC/*<AboutProps>*/ = (/*{ onGetInTouch }*/) => {
     return (
-        <section className="flex gap-2 lg:gap-32 px-6 lg:px-40 lg:pb-28 items-center max-md:flex-col max-md:gap-2" aria-labelledby="about-title">
+        <section className="w-full flex gap-2 md:gap-0 lg:gap-8 xl:gap-32 px-6 md:px-8 lg:px-12 xl:px-40 lg:pb-28 items-center max-md:flex-col max-md:gap-2" aria-labelledby="about-title">
             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/99280f9bf1ffc06da3c6a119c705d9003382dcd5" alt="About Load of Pixels" className="w-full mt-4 border-none h-auto" />
             <div className="flex flex-col gap-14 max-w-[701px]">
                 <div className="flex flex-col sm:mt-9 lg:mt-20 gap-10">
