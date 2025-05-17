@@ -24,11 +24,11 @@ const Hero: React.FC = () => {
             {/* Hero Content */}
             <div className="flex flex-col w-full lg:max-w-[1100px] relative top-26 md:top-20 lg:mt-8 ml-0 lg:ml-20 sm:top-35 lg:top-20 gap-8 md:gap-4">
                 {/* Slow transparency Reveal */}
-                <div className="flex gap-2 w-[66%] sm:w-[50%] md:w-[32%] lg:w-[29%] rounded-md p-1 items-center bg-gradient-to-b from-zinc-50/10 to-indigo-600/50 border border-zinc-50/10 start-up">
+                <div className="flex gap-2 w-fit rounded-md p-1 items-center bg-gradient-to-b from-zinc-50/10 to-indigo-600/50 border border-zinc-50/10 start-up">
                     <h2 className="px-2.5 py-2.5 text-lg bg-[#441e97] border border-zinc-400/40 rounded-md text-zinc-300">
                         New
                     </h2>
-                    <span className="text-sm lg:text-lg p-2 font-light rounded-md text-stone-300">
+                    <span className="text-sm lg:text-lg p-2 font-light rounded-md text-stone-300 max-w-prose">
                         No.1 Startup Studio of 2025
                     </span>
                 </div>
